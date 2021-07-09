@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  i_get_really_worried:
+    build: .
+    image: i_get_really_worried
+
+    env_file: .env
+
+    volumes:
+      - ./:/bot
