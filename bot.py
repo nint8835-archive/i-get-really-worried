@@ -81,7 +81,7 @@ async def on_message(message: discord.Message):
                 mitch_found = True
 
         if jack_found and mitch_found:
-            await message.channel.send(
+            await message.reply(
                 "guys somtimes :anguished:  i get really worried :persevere: that mitch and jack aren't in the same room :cry: and then i check #general :astonished: and there is a new photo of them  :star_struck:  so i know that they are in the same room :partying_face:"
             )
 
